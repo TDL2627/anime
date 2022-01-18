@@ -5,15 +5,26 @@ let projects = [
       title: "Smile of Sadness",
       genre:"Sad"
       
+    },
+    {
+      imgURL: "/images/2.gif",
+      title: "Smile of Sadness",
+      genre:"Sad"
+      
+    },
+    {
+      imgURL: "/images/3.gif",
+      title: "Smile of Sadness",
+      genre:"Dark"
+      
     }
+  
   ];
   
   function createCard(card) {
-    let createdCard = `<div class="project-card" genre=${card.genre} >
-        <img class="movie-pic" src="${card.imgURL}">
-        <h4>${card.title}</h4>
-        <h6>${card.genre}</h6>
-        
+    let createdCard = `<div class="carousel-item" genre=${card.genre} >
+        <img  class="d-block w-100 gift" src="${card.imgURL}">
+        <h1>${card.title}</h1>
       </div>
     `;
     return createdCard;
