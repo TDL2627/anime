@@ -8,46 +8,46 @@ let projects = [
     },
     {
       imgURL: "/images/2.gif",
-      title: "Smile of Madness",
+      title: "Brxken",
       genre:"Sad"
       
     },
     {
       imgURL: "/images/3.gif",
-      title: "Smile of Sadness",
+      title: "Wrist Slit",
       genre:"Dark"
       
     }
     ,
     {
       imgURL: "/images/4.gif",
-      title: "Smile of Sadness",
+      title: "Forgive myself",
       genre:"Sad"
       
     },
     {
       imgURL: "/images/5.gif",
-      title: "Smile of Sadness",
+      title: "Shinobi",
       genre:"Dark"
       
     }
     ,
     {
       imgURL: "/images/6.gif",
-      title: "Smile of Sadness",
+      title: "Brains Blown",
       genre:"Sad"
       
     },
     {
       imgURL: "/images/7.gif",
-      title: "Smile of Sadness",
+      title: "Hung Gold Chain",
       genre:"Dark"
       
     }
     ,
     {
       imgURL: "/images/8.gif",
-      title: "Smile of Sadness",
+      title: "Life",
       genre:"Sad"
       
     },
