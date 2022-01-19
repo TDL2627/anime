@@ -53,46 +53,46 @@ let projects = [
     },
     {
       imgURL: "/images/9.gif",
-      title: "Sharingun",
+      title: "Sharingan",
       genre:"Dark"
       
     }
     ,
     {
       imgURL: "/images/10.gif",
-      title: "Smile of Sadness",
+      title: "The Lost Sayjin",
       genre:"Sad"
       
     },
     {
       imgURL: "/images/11.gif",
-      title: "Smile of Sadness",
+      title: "Charizard",
       genre:"Dark"
       
     }
     ,
     {
       imgURL: "/images/12.gif",
-      title: "Smile of Sadness",
+      title: "Nike",
       genre:"Sad"
       
     },
     {
       imgURL: "/images/13.gif",
-      title: "Smile of Sadness",
+      title: "Alter Ego",
       genre:"Dark"
       
     }
     ,
     {
       imgURL: "/images/14.gif",
-      title: "Smile of Sadness",
+      title: "Numb The Pain",
       genre:"Sad"
       
     },
     {
       imgURL: "/images/15.gif",
-      title: "Smile of Sadness",
+      title: "Message in a bottle",
       genre:"Dark"
       
     }
