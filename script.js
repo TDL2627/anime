@@ -53,7 +53,7 @@ let projects = [
     },
     {
       imgURL: "/images/9.gif",
-      title: "Smile of Sadness",
+      title: "Sharingun",
       genre:"Dark"
       
     }
