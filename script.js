@@ -15,7 +15,7 @@ let projects = [
     {
       imgURL: "/images/3.gif",
       title: "Wrist Slit",
-      genre:"Dark"
+      genre:"Sad"
       
     }
     ,
@@ -28,7 +28,7 @@ let projects = [
     {
       imgURL: "/images/5.gif",
       title: "Shinobi",
-      genre:"Dark"
+      genre:"Cartoon"
       
     }
     ,
@@ -41,46 +41,46 @@ let projects = [
     {
       imgURL: "/images/7.gif",
       title: "Hung Gold Chain",
-      genre:"Dark"
+      genre:"Sad"
       
     }
     ,
     {
       imgURL: "/images/8.gif",
       title: "Life",
-      genre:"Sad"
+      genre:"Abstract"
       
     },
     {
       imgURL: "/images/9.gif",
       title: "Sharingan",
-      genre:"Dark"
+      genre:"Cartoon"
       
     }
     ,
     {
       imgURL: "/images/10.gif",
-      title: "The Lost Sayjin",
-      genre:"Sad"
+      title: "The Last Sayjin",
+      genre:"Cartoon"
       
     },
     {
       imgURL: "/images/11.gif",
       title: "Charizard",
-      genre:"Dark"
+      genre:"Cartoon"
       
     }
     ,
     {
       imgURL: "/images/12.gif",
       title: "Nike",
-      genre:"Sad"
+      genre:"Abstract"
       
     },
     {
       imgURL: "/images/13.gif",
       title: "Alter Ego",
-      genre:"Dark"
+      genre:"Abstract"
       
     }
     ,
@@ -93,14 +93,14 @@ let projects = [
     {
       imgURL: "/images/15.gif",
       title: "Message in a bottle",
-      genre:"Dark"
+      genre:"Romance"
       
     }
   
   ];
   
   function createCard(card) {
-    let createdCard = `<div class="carousel-item" genre=${card.genre} >
+    let createdCard = `<div class="project-card" genre=${card.genre} >
         <img  class="d-block w-100 gift" src="${card.imgURL}">
         <h1>${card.title}</h1>
         <a href="${card.imgURL}" download>Download</a>
