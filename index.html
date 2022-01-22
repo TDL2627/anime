@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,37 +16,18 @@
 <body>
     
     <h1>My Animations</h1>
-    <!-- <div class="button-container">
+    <div class="button-container">
         <button onclick="filterCards('All')">All</button>
         <button onclick="filterCards('Sad')">Sad</button>
-        <button onclick="filterCards('Action')">Action</button>
+        <button onclick="filterCards('Funny')">Funny</button>
         <button onclick="filterCards('Romance')">Romance</button>
-      </div> -->
-     
-      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="/images/bg.jpg" class="d-block w-100 gift" alt="bg">
-            <h2>Press the buttons to scroll through and download</h2>
-          </div>
-          <div class="project-container">
-
-        </div>
-        </div>
-        <button  class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-          width="64" height="64"
-          viewBox="0 0 172 172"
-          style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#1abc9c"><path d="M108.99184,70.20408h-42.29796v-17.55102c-0.01412,-1.07662 -0.68241,-2.03614 -1.68736,-2.42266c-1.00495,-0.38652 -2.14398,-0.12213 -2.87591,0.66756l-32.6449,33.34694c-0.52185,0.43348 -0.82374,1.0767 -0.82374,1.7551c0,0.6784 0.30189,1.32162 0.82374,1.7551l32.6449,33.34694c0.5041,0.53361 1.19711,0.84861 1.93061,0.87755h1.05306c1.0021,-0.48656 1.62185,-1.51947 1.57959,-2.63265v-15.79592h42.29796c1.76777,-0.29964 3.12604,-1.7294 3.33469,-3.5102v-28.08163c0,-1.40408 -1.7551,-1.7551 -3.33469,-1.7551zM120.22449,69.32653c-1.45397,0 -2.63265,1.17868 -2.63265,2.63265v28.08163c0,1.45397 1.17868,2.63265 2.63265,2.63265c1.45397,0 2.63265,-1.17868 2.63265,-2.63265v-28.08163c0,-1.45397 -1.17868,-2.63265 -2.63265,-2.63265zM130.7551,69.32653c-1.45397,0 -2.63265,1.17868 -2.63265,2.63265v28.08163c0,1.45397 1.17868,2.63265 2.63265,2.63265c1.45397,0 2.63265,-1.17868 2.63265,-2.63265v-28.08163c0,-1.45397 -1.17868,-2.63265 -2.63265,-2.63265zM141.28571,69.32653c-1.45397,0 -2.63265,1.17868 -2.63265,2.63265v28.08163c0,1.45397 1.17868,2.63265 2.63265,2.63265c1.45397,0 2.63265,-1.17868 2.63265,-2.63265v-28.08163c0,-1.45397 -1.17868,-2.63265 -2.63265,-2.63265z"></path></g></g></svg>
-      
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-          width="64" height="64"
-          viewBox="0 0 172 172"
-          style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#1abc9c"><path d="M109.86939,50.89796c-0.73193,-0.78969 -1.87096,-1.05408 -2.87591,-0.66756c-1.00495,0.38652 -1.67324,1.34604 -1.68736,2.42266v17.55102h-42.29796c-1.57959,0 -3.33469,0.35102 -3.33469,1.7551v28.08163c0.20865,1.7808 1.56692,3.21056 3.33469,3.5102h42.29796v15.79592c0.02559,1.05 0.63498,1.99794 1.57959,2.45714h1.05306c0.7335,-0.02894 1.42651,-0.34394 1.93061,-0.87755l32.6449,-33.17143c0.52185,-0.43348 0.82374,-1.0767 0.82374,-1.7551c0,-0.6784 -0.30189,-1.32162 -0.82374,-1.7551zM51.77551,69.32653c-1.45397,0 -2.63265,1.17868 -2.63265,2.63265v28.08163c0,1.45397 1.17868,2.63265 2.63265,2.63265c1.45397,0 2.63265,-1.17868 2.63265,-2.63265v-28.08163c0,-1.45397 -1.17868,-2.63265 -2.63265,-2.63265zM41.2449,69.32653c-1.45397,0 -2.63265,1.17868 -2.63265,2.63265v28.08163c0,1.45397 1.17868,2.63265 2.63265,2.63265c1.45397,0 2.63265,-1.17868 2.63265,-2.63265v-28.08163c0,-1.45397 -1.17868,-2.63265 -2.63265,-2.63265zM30.71429,69.32653c-1.45397,0 -2.63265,1.17868 -2.63265,2.63265v28.08163c0,1.45397 1.17868,2.63265 2.63265,2.63265c1.45397,0 2.63265,-1.17868 2.63265,-2.63265v-28.08163c0,-1.45397 -1.17868,-2.63265 -2.63265,-2.63265z"></path></g></g></svg> </button>
+        <button onclick="filterCards('Abstract')">Abstract</button>
+        <button onclick="filterCards('Cartoon')">Cartoon</button>
       </div>
-    
+      <div class="project-container">
+
+      </div>
+  
 <footer>Developed by TDL2627</footer>
 <script type="text/javascript">
   var adfly_id = 26231515;
