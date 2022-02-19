@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: anime2627.netlify.app
+Token: 9c602ff3e841da3f9285bb5d5978cec675f55720538c252c1d220bbbb2a6d62a
